@@ -1,0 +1,38 @@
+{
+	"name": "bash-alias-creator",
+	"version": "0.3.1",
+	"description": "Node.js NPM packaged tool to help easily create and organize Bash/ZSH/Shell aliases.",
+	"license": "MIT",
+	"repository": "matt-d-brown/bash-alias-creator",
+	"author": {
+		"name": "Matt Brown",
+		"email": "hi@mattbrown.email",
+		"url": "dev.mattdanielbrown.com"
+	},
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		""
+	],
+	"dependencies": {
+		"ansi-colors": "4.1.1",
+		"ansi-styles": "4.1.0",
+		"chalk": "2.4.2",
+		"meow": "^5.0.0"
+	},
+	"devDependencies": {
+		"ava": "^2.1.0",
+		"xo": "^0.24.0"
+	}
+}
